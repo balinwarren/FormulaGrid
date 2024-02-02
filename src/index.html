@@ -8,35 +8,41 @@
     <script src="https://kit.fontawesome.com/ab87087bfd.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="nav-container">
+        <div class="nav-logo"></div>
+        <p class="nav-title">Formula Grid</p>
 
-    <h1 class="title"> Formula Grid #1</h1>
+        <i class="fa-brands fa-twitter" id="nav-twitter"></i>
+        <i class="fa-solid fa-circle-question" id="nav-help"></i>
+    </div>
+    <p class="title"> Formula Grid #1</p>
 
     <div class="container">
         <div class="grid">
-            <div class="grid-logo"></div>
-            <div class="grid-header"></div>
-            <div class="grid-header"></div>
-            <div class="grid-header"></div>
+            <div class="grid-square logo"></div>
+            <div class="grid-square header"></div>
+            <div class="grid-square header"></div>
+            <div class="grid-square header"></div>
 
-            <div class="grid-header"></div>
-            <div class="grid-guess" id="top-left"></div>
-            <div class="grid-guess"></div>
-            <div class="grid-guess" id="top-right"></div>
+            <div class="grid-square header"></div>
+            <div class="grid-square guess" id="top-left"></div>
+            <div class="grid-square guess"></div>
+            <div class="grid-square guess" id="top-right"></div>
 
-            <div class="grid-header"></div>
-            <div class="grid-guess"></div>
-            <div class="grid-guess"></div>
-            <div class="grid-guess"></div>
+            <div class="grid-square header"></div>
+            <div class="grid-square guess"></div>
+            <div class="grid-square guess"></div>
+            <div class="grid-square guess"></div>
 
-            <div class="grid-header"></div>
-            <div class="grid-guess" id="bot-left"></div>
-            <div class="grid-guess"></div>
-            <div class="grid-guess" id="bot-right"></div>
+            <div class="grid-square header"></div>
+            <div class="grid-square guess" id="bot-left"></div>
+            <div class="grid-square guess"></div>
+            <div class="grid-square guess" id="bot-right"></div>
         </div>
 
-        <div class="guess">
-            <h5 id="guess-left">GUESSES LEFT</h5>
-            <h3 id="'guess-count">9</h3>
+        <div class="guess-box">
+            <p id="guess-left">GUESSES LEFT</p>
+            <p id="'guess-count">9</p>
             <button class="btn">Give up</button>
         </div>
 
