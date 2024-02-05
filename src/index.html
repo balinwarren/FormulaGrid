@@ -14,42 +14,20 @@
 </head>
 <body>
     <div class="nav-container">
-        <div class="nav-logo"></div>
-        <p class="nav-title">Formula Grid</p>
+        <div class="logo-wrapper">
+            <img class="nav-logo" alt="logo" src="../assets/logos/formulagrid-white.webp">
+        </div>
 
-        <i class="fa-brands fa-twitter" id="nav-twitter"></i>
-        <i class="fa-solid fa-circle-question" id="nav-help"></i>
+        <div class="nav-right">
+            <i class="fa-brands fa-twitter nav-icon" id="nav-twitter"></i>
+            <i class="fa-solid fa-circle-question nav-icon" id="nav-help"></i>
+        </div>
     </div>
-    <p class="title"> Formula Grid #1</p>
 
-    <div class="container">
-        <div class="grid">
-            <div class="grid-square logo"></div>
-            <div class="grid-square header"></div>
-            <div class="grid-square header"></div>
-            <div class="grid-square header"></div>
+    <div class="center-flex">
+        <p class="title"> Formula Grid #1</p>
 
-            <div class="grid-square header"></div>
-            <div class="grid-square guess" id="top-left"></div>
-            <div class="grid-square guess"></div>
-            <div class="grid-square guess" id="top-right"></div>
-
-            <div class="grid-square header"></div>
-            <div class="grid-square guess"></div>
-            <div class="grid-square guess"></div>
-            <div class="grid-square guess"></div>
-
-            <div class="grid-square header"></div>
-            <div class="grid-square guess" id="bot-left"></div>
-            <div class="grid-square guess"></div>
-            <div class="grid-square guess" id="bot-right"></div>
-        </div>
-
-        <div class="guess-box">
-            <p id="guess-left">GUESSES LEFT</p>
-            <p id="'guess-count">9</p>
-            <button class="btn">Give up</button>
-        </div>
+    
 
     </div>
     <script src="./app.js"></script>
