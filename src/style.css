@@ -89,17 +89,21 @@ body {
 }
 
 .title {
-    font-size: 1vw;
+    font-size: 1.1rem;
     font-weight: normal;
     font-style: italic;
     width: 50vw;
     height: 1.5vw;
+    max-width: 1000px;
+    max-height: 30px;
     text-align: center;
 }
 
 .top-row {
     width: 50vw;
     height: 10vw;
+    max-width: 1000px;
+    max-height: 200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -109,6 +113,8 @@ body {
     display: flex;
     width: 50vw;
     height: 30vw;
+    max-width: 1000px;
+    max-height: 600px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -118,6 +124,8 @@ body {
     flex-direction: column;
     width: 10vw;
     height: 30vw;
+    max-width: 200px;
+    max-height: 600px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -128,8 +136,10 @@ body {
     grid-template-rows: repeat(3, 1fr);
     width: 30vw;
     height: 30vw;
+    max-width: 600px;
+    max-height: 600px;
     transition: transform 0.1s ease-in-out;
-    gap: .25vw;
+    gap: 1%;
 }
 
 .answer-grid:hover {
@@ -137,19 +147,19 @@ body {
 }
 
 .top-left {
-    border-radius: 1.5vw 0 0 0;
+    border-radius: 15px 0 0 0;
 }
 
 .top-right {
-    border-radius: 0 1.5vw 0 0;
+    border-radius: 0 15px 0 0;
 }
 
 .bot-left {
-    border-radius: 0 0 0 1.5vw;
+    border-radius: 0 0 0 15px;
 }
 
 .bot-right {
-    border-radius: 0 0 1.5vw 0;
+    border-radius: 0 0 15px 0;
 }
 
 .right-guess-count-container {
@@ -157,6 +167,8 @@ body {
     flex-direction: column;
     width: 10vw;
     height: 30vw;
+    max-width: 200px;
+    max-height: 600px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -165,6 +177,8 @@ body {
     display: flex;
     width: 10vw;
     height: 10vw;
+    max-width: 200px;
+    max-height: 200px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -178,16 +192,18 @@ body {
 }
 
 #guessCount {
-    font-size: 7vw;
+    font-size: 6.5rem;
 }
 
 .btn {
     width: 5vw;
     height: 1.5vw;
+    max-width: 100px;
+    max-height: 30px;
     background-color: var(--btn-color);
     color: white;
     border: none;
-    border-radius: .4vw;
+    border-radius: 5px;
     transition: transform 0.1s ease-in-out;
 }
 
@@ -199,6 +215,8 @@ body {
 .grid-square {
     width: 10vw;
     height: 10vw;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .answer {
