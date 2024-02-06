@@ -5,9 +5,9 @@ for both desktop and mobile, gathering all the data for the entire history of Fo
 my own database and and api), and managing the frontend and the backend(I have never built a backend before).
 
  # Technologies used and planned to use currently:
-HTML
-CSS
-JS (no frontend framework) *planned*
-GO (backend) *planned*
-Python FastAPI *planned*
-MongoDB *planned*
+HTML  
+CSS  
+JS (no frontend framework) *planned*  
+GO (backend) *planned*  
+Python FastAPI *planned*  
+MongoDB *planned*  
