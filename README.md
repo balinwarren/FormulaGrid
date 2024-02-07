@@ -4,6 +4,9 @@ This has been a large indeavor for me as my first full stack webapp from start t
 for both desktop and mobile, gathering all the data for the entire history of Formula 1 (there are pre existing databases with public apis but I wanted the learning opportunity of creating
 my own database and and api), and managing the frontend and the backend(I have never built a backend before).
 
+# Check the progress  
+# https://www.formulagrid.app  
+
  # Technologies used and planned to use currently:
 HTML  
 CSS  
