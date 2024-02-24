@@ -45,52 +45,62 @@ export default function Home() {
         </div>
       </nav>
 
-      <p className="font-display text-xl italic">Formula Grid #1</p>
+      <p className="font-display text-xl font-semibold italic">
+        Formula Grid #1
+      </p>
 
       <div className="flex flex-col justify-center">
         <div className="flex flex-row justify-center">
-          <div className="size-20 md:size-44"></div>
-          <div className="size-20 md:size-44"></div>
-          <div className="size-20 md:size-44"></div>
-          <div className="size-20 md:size-44"></div>
-          <div className="hidden md:block md:size-44"></div>
+          <div className="size-24 sm:size-36 md:size-48"></div>
+          <div className="size-24 sm:size-36 md:size-48"></div>
+          <div className="size-24 sm:size-36 md:size-48"></div>
+          <div className="size-24 sm:size-36 md:size-48"></div>
+          <div className="hidden sm:block sm:size-36 md:size-48"></div>
         </div>
 
         <div className="flex items-center justify-center">
           <div className="grid grid-rows-3">
-            <div className="size-20 md:size-44"></div>
-            <div className="size-20 md:size-44"></div>
-            <div className="size-20 md:size-44"></div>
+            <div className="size-24 sm:size-36 md:size-48"></div>
+            <div className="size-24 sm:size-36 md:size-48"></div>
+            <div className="size-24 sm:size-36 md:size-48"></div>
           </div>
 
-          <div className="dark:border-grid-dark grid grid-cols-3 grid-rows-3 gap-0.5 overflow-hidden rounded-xl border">
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
+          <div className="grid grid-cols-3 grid-rows-3 overflow-hidden rounded-xl border border-white hover:cursor-pointer dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
           </div>
 
-          <div className="hidden size-20 flex-col items-center justify-center gap-4 sm:flex md:size-44">
-            <p className="font-display text-base uppercase">Guesses Left</p>
-            <p className="font-display text-7xl">9</p>
-            <button className="rounded-full bg-red-700 px-4 py-2 font-bold text-white hover:cursor-pointer hover:bg-red-700">
-              RETIRE
-            </button>
+          <div className="hidden size-24 flex-col items-center justify-center gap-4 sm:flex sm:size-36 md:size-48">
+            <div>
+              <p className="font-display text-center text-base font-semibold uppercase">
+                Guesses Left
+              </p>
+              <p className="font-display mb-1 mt-1 text-center text-6xl font-semibold md:text-7xl">
+                9
+              </p>
+              <div className="flex items-center justify-center">
+                <button className="rounded-full bg-red-700 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-700">
+                  Retire
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mt-8 flex  flex-col items-center justify-center gap-2 sm:hidden">
-        <p className="font-display text-center text-xs uppercase">
+        <p className="font-display text-center text-sm font-semibold uppercase">
           Guesses Left
         </p>
-        <p className="font-display text-6xl">9</p>
-        <button className="rounded-full bg-red-700 px-4 py-2 font-bold text-white hover:cursor-pointer hover:bg-red-700">
+        <p className="font-display text-6xl font-semibold">9</p>
+        <button className="rounded-full bg-red-700 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-700">
           RETIRE
         </button>
       </div>
