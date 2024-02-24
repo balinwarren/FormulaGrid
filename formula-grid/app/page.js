@@ -52,29 +52,59 @@ export default function Home() {
       <div className="flex flex-col justify-center">
         <div className="flex flex-row justify-center">
           <div className="size-24 sm:size-36 md:size-48"></div>
-          <div className="size-24 sm:size-36 md:size-48"></div>
-          <div className="size-24 sm:size-36 md:size-48"></div>
-          <div className="size-24 sm:size-36 md:size-48"></div>
+          <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+            <span>Placeholder Category</span>
+          </div>
+          <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+            <span>Placeholder Category</span>
+          </div>
+          <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+            <span>Placeholder Category</span>
+          </div>
           <div className="hidden sm:block sm:size-36 md:size-48"></div>
         </div>
 
         <div className="flex items-center justify-center">
           <div className="grid grid-rows-3">
-            <div className="size-24 sm:size-36 md:size-48"></div>
-            <div className="size-24 sm:size-36 md:size-48"></div>
-            <div className="size-24 sm:size-36 md:size-48"></div>
+            <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+              <span>Placeholder Category</span>
+            </div>
+            <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+              <span>Placeholder Category</span>
+            </div>
+            <div className="font-display flex size-24 items-center justify-center text-center text-base font-bold sm:size-36 sm:text-xl md:size-48 md:text-2xl">
+              <span>Placeholder Category</span>
+            </div>
           </div>
 
           <div className="grid grid-cols-3 grid-rows-3 overflow-hidden rounded-xl border border-white hover:cursor-pointer dark:border-black">
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-r border-white sm:size-36 md:size-48 dark:border-black"></div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-24 overflow-hidden border-b border-white sm:size-36 md:size-48 dark:border-black"></div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+              <span>Placeholder Driver</span>
+            </div>
           </div>
 
           <div className="hidden size-24 flex-col items-center justify-center gap-4 sm:flex sm:size-36 md:size-48">
@@ -96,7 +126,7 @@ export default function Home() {
       </div>
 
       <div className="font-display mt-5 text-center text-sm">
-        <span className="block">
+        <span className="hidden sm:block">
           Note: Driver's must have started a Grand Prix with the team to
           qualify.
         </span>
