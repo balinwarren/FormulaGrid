@@ -95,6 +95,16 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="font-display mt-5 text-center text-sm">
+        <span className="block">
+          Note: Driver's must have started a Grand Prix with the team to
+          qualify.
+        </span>
+        <span className="block">
+          Tap on a team for past team names or on a category for more info.
+        </span>
+      </div>
+
       <div className="mt-8 flex  flex-col items-center justify-center gap-2 sm:hidden">
         <p className="font-display text-center text-sm font-semibold uppercase">
           Guesses Left
