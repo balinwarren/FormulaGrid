@@ -49,8 +49,8 @@ export default function Home() {
             <ul className="mt-4 flex flex-col rounded-lg border p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:p-0 rtl:space-x-reverse">
               <li>
                 <a
-                  href="#"
-                  className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-red-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-red-500"
+                  href="https://twitter.com/formulagridapp"
+                  className="block rounded px-3 py-2 text-gray-900 hover:cursor-pointer hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-red-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-red-500"
                 >
                   <FontAwesomeIcon icon={faTwitter} className="h-5" />
                 </a>
@@ -58,7 +58,7 @@ export default function Home() {
               <li>
                 <a
                   href="#"
-                  className="block rounded px-3 py-2 text-gray-900 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-red-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-red-500"
+                  className="block rounded px-3 py-2 text-gray-900 hover:cursor-pointer hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-red-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-red-500"
                 >
                   <FontAwesomeIcon icon={faUser} className="h-5" />
                 </a>
@@ -67,6 +67,8 @@ export default function Home() {
           </div>
         </div>
       </nav>
+
+      <p className="font-display text-xl">Formula Grid #1</p>
     </main>
   );
 }
