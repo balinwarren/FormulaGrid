@@ -48,12 +48,12 @@ export default function Home() {
       <p className="font-display text-xl italic">Formula Grid #1</p>
 
       <div className="flex flex-col justify-center">
-        <div className="grid grid-cols-5">
+        <div className="flex flex-row justify-center">
           <div className="size-20 md:size-44"></div>
           <div className="size-20 md:size-44"></div>
           <div className="size-20 md:size-44"></div>
           <div className="size-20 md:size-44"></div>
-          <div className="size-20 md:size-44"></div>
+          <div className="hidden md:block md:size-44"></div>
         </div>
 
         <div className="flex items-center justify-center">
@@ -75,14 +75,24 @@ export default function Home() {
             <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover size-20 overflow-hidden md:size-44"></div>
           </div>
 
-          <div className="flex size-20 flex-col items-center justify-center gap-4 md:size-44">
-            <p className="font-display text-base">GUESSES LEFT</p>
+          <div className="hidden size-20 flex-col items-center justify-center gap-4 sm:flex md:size-44">
+            <p className="font-display text-base uppercase">Guesses Left</p>
             <p className="font-display text-7xl">9</p>
             <button className="rounded-full bg-red-700 px-4 py-2 font-bold text-white hover:cursor-pointer hover:bg-red-700">
               RETIRE
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="mt-8 flex  flex-col items-center justify-center gap-2 sm:hidden">
+        <p className="font-display text-center text-xs uppercase">
+          Guesses Left
+        </p>
+        <p className="font-display text-6xl">9</p>
+        <button className="rounded-full bg-red-700 px-4 py-2 font-bold text-white hover:cursor-pointer hover:bg-red-700">
+          RETIRE
+        </button>
       </div>
     </main>
   );
