@@ -18,6 +18,14 @@ export default function Home() {
                 layout="fill"
                 objectFit="contain"
                 alt="Formula Grid Logo"
+                className="hidden dark:block"
+              />
+              <Image
+                src="/fg-logos/formulagrid-black.webp"
+                layout="fill"
+                objectFit="contain"
+                alt="Formula Grid Logo"
+                className="dark:hidden"
               />
             </div>
           </a>
@@ -77,32 +85,32 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 grid-rows-3 overflow-hidden rounded-xl border border-white hover:cursor-pointer dark:border-black">
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+          <div className="grid grid-cols-3 grid-rows-3 overflow-hidden rounded-xl border border-gray-200 hover:cursor-pointer dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-r border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
-            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-white text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
+            <div className="bg-grid-light hover:bg-grid-light-hover dark:bg-grid-dark dark:hover:bg-grid-dark-hover font-display flex size-24 items-center justify-center overflow-hidden border-b border-gray-200 text-center text-base font-bold sm:size-36 sm:text-lg md:size-48 md:text-xl dark:border-black">
               <span>Placeholder Driver</span>
             </div>
           </div>
@@ -116,7 +124,7 @@ export default function Home() {
                 9
               </p>
               <div className="flex items-center justify-center">
-                <button className="rounded-full bg-red-700 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-700">
+                <button className="rounded-full bg-red-500 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700">
                   Retire
                 </button>
               </div>
@@ -126,13 +134,13 @@ export default function Home() {
       </div>
 
       <div className="font-display mt-5 text-center text-sm">
-        <p className="hidden sm:block">
+        <span className="hidden sm:block">
           Note: Driver's must have started a Grand Prix with the team to
           qualify.
-        </p>
-        <p className="block">
+        </span>
+        <span className="block">
           Tap on a team for past team names or on a category for more info.
-        </p>
+        </span>
       </div>
 
       <div className="mt-8 flex  flex-col items-center justify-center gap-2 sm:hidden">
@@ -140,8 +148,8 @@ export default function Home() {
           Guesses Left
         </p>
         <p className="font-display text-6xl font-semibold">9</p>
-        <button className="rounded-full bg-red-700 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-700">
-          RETIRE
+        <button className="rounded-full bg-red-500 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700">
+          Retire
         </button>
       </div>
     </main>
