@@ -5,8 +5,8 @@ import { faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-12">
-      <nav className="sticky top-0 w-screen">
+    <main className="flex min-h-screen flex-col items-center justify-between pl-12 pr-12 pt-12">
+      <nav className="top-0 w-screen">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <a
             href="https://formulagrid.app/"
@@ -151,6 +151,15 @@ export default function Home() {
         <button className="rounded-full bg-red-500 px-4 py-1 font-bold text-white hover:cursor-pointer hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700">
           Retire
         </button>
+      </div>
+
+      <div className="dark:bg-grid-dark font-display bottom-0 mt-10 w-screen bg-white p-12 text-center text-xs">
+        <span>
+          Please note: Formula Grid does not own any of the team, organization
+          or event logos depicted within this site. All sports logos contained
+          within this site are properties of their respective teams, ownership
+          groups and/or organizations.
+        </span>
       </div>
     </main>
   );
