@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     colors: {
       "header-red": "#ef233c",
-      "footer-red": "#d90429",
+      "footer-light": "#e9ecef",
+      "footer-dark": "#1C2541",
     }
   },
   plugins: [],
