@@ -16,8 +16,7 @@ function App() {
 
         <div className="font-display mt-5 text-center text-sm">
           <span className="block">
-            Note: Driver's must have started a Grand Prix with the team to
-            qualify.
+            Note: Driver's must have started a Grand Prix to qualify.
           </span>
           <span className="block">
             Tap on a team for past team names or on a category for more info.

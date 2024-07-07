@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '22': '5.5rem',
+        '21': '5.25rem'
+      }
+    },
     colors: {
       "header-red": "#ef233c",
       "footer-light": "#e9ecef",
