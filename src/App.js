@@ -1,7 +1,6 @@
 import './styles.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import GameTitle from './components/GameTitle';
 import Grid from './components/Grid';
 import GuessCard from './components/GuessCard';
 

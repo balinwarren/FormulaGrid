@@ -17,7 +17,7 @@ export default function Header(){
                     </div>
                 </a>
 
-                <div className="flex gap-6">
+                <div className="flex gap-7">
                     <a
                         href="https://twitter.com/formulagridapp"
                     >
