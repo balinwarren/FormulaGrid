@@ -10,8 +10,6 @@ function App() {
     <div className="flex min-h-screen flex-col items-center justify-between pl-12 pr-12">
         <Header></Header>
 
-        <GameTitle></GameTitle>
-
         <Grid></Grid>
 
         <div className="font-display mt-5 text-center text-sm">

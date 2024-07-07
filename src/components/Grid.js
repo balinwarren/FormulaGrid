@@ -2,10 +2,13 @@ import React from "react";
 import CategoryCard from "./CategoryCard";
 import DriverCard from "./DriverCard";
 import GuessCard from "./GuessCard";
+import GameTitle from "./GameTitle";
 
 export default function Grid() {
     return (
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center items-center">
+            <GameTitle></GameTitle>
+
             <div className="flex flex-row justify-center">
                 <div className="size-24 sm:size-32 md:size-40 lg:size-52"></div>
                 <CategoryCard></CategoryCard>
